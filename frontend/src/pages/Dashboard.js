@@ -4,7 +4,7 @@ function Dashboard() {
   const { user } = useGlobalContext();
   const { name, userId, role } = user;
   return (
-    <>
+    <>  
       <Wrapper className="page">
         <h2>Hello there, {user.name}</h2>
         <p>
